@@ -1,0 +1,11 @@
+@use postcss-conic-gradient;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-conic-gradient {
+  background-image: conic-gradient(red, gold);
+}
