@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
+  </head>
+  <body>
+    <h1>postcss-conic-gradient</h1>
+    <div style="color: red;">You should install Cairo first as described <a href="https://github.com/Automattic/node-canvas/wiki/_pages">here</a></div>
+    <a href="javascript:history.back()">Back</a>
+    <table>
+      <tr>
+        <th>Input code</th>
+        <th>Output code</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='conic-gradient'>
+        <td>
+          background-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+        </td>
+        <td>
+          background-image: url("data:image/svg+xml,...");
+          background-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+        </td>
+        <td>
+          <div class="square is-conic-gradient"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

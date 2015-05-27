@@ -18,7 +18,8 @@
     "postcss-color-gray": "^2.0.0",
     "postcss-color-hex-alpha": "^1.1.0",
     "postcss-color-rebeccapurple": "^1.2.0",
-    "postcss-color-hwb": "^1.1.0"
+    "postcss-color-hwb": "^1.1.0",
+    "postcss-conic-gradient": "^0.1.1"
   },
   "scripts": {
     "test": "gulp"
