@@ -1,6 +1,10 @@
 import gulp from 'gulp';
 import eslint from 'gulp-eslint';
 
+// Default
+
+gulp.task('default', ['lint']);
+
 // Lint
 
 gulp.task('lint', () => {
