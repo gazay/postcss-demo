@@ -1,0 +1,9 @@
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-alpha {
+  background: color(red a(70%));
+}
