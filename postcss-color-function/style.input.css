@@ -1,3 +1,5 @@
+@use postcss-color-function;
+
 .square {
   height: 20px;
   width: 20px;
