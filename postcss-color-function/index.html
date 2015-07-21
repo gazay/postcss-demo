@@ -2,9 +2,30 @@
 <html>
   <head>
     <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
   </head>
   <body>
-    <div class="square"></div>
-    <div class="square is-alpha"></div>
+    <table>
+      <tr>
+        <th>Input</th>
+        <th>Plugin function</th>
+        <th>Predefined output</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='alpha'>
+        <td>
+          <div class="square"></div>
+        </td>
+        <td>
+          color(red a(30%))
+        </td>
+        <td>
+          <div class="square is-alpha-predefined"></div>
+        </td>
+        <td>
+          <div class="square is-alpha"></div>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>

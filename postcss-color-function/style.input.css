@@ -6,6 +6,10 @@
   background: red;
 }
 
+.square.is-alpha-predefined {
+  background: rgba(255, 0, 0, 0.3);
+}
+
 .square.is-alpha {
-  background: color(red a(70%));
+  background: color(red a(30%));
 }
