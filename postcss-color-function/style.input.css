@@ -10,14 +10,22 @@
   background: rgba(255, 0, 0, 0.3);
 }
 
-.square.is-tint-predefined {
-  background: rgb(255, 128, 128);
-}
-
 .square.is-alpha {
   background: color(red a(30%));
 }
 
+.square.is-tint-predefined {
+  background: rgb(255, 128, 128);
+}
+
 .square.is-tint {
   background: color(red tint(50%));
+}
+
+.square.is-hsla-predefined {
+  background: rgba(64, 149, 191, 0.4);
+}
+
+.square.is-hsla {
+  background: color(hsla(125, 50%, 50%, .4) hue(200));
 }
