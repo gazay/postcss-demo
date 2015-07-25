@@ -11,7 +11,8 @@
 }
 
 .square.is-alpha {
-  background: color(red a(30%));
+  background: color(red alpha(30%));
+  /* background: color(red a(30%)); */
 }
 
 .square.is-tint-predefined {
@@ -20,12 +21,22 @@
 
 .square.is-tint {
   background: color(red tint(50%));
+  /* background: color(red tint(50%)); */
 }
 
 .square.is-hsla-predefined {
-  background: rgba(64, 149, 191, 0.4);
+  background: rgba(64, 191, 74, 0.4);
 }
 
 .square.is-hsla {
-  background: color(hsla(125, 50%, 50%, .4) hue(200));
+  background: color(hsla(125, 50%, 50%, .4));
+}
+
+.square.is-hue-predefined {
+  background: rgb(0, 170, 255);
+}
+
+.square.is-hue {
+  background: color(red hue(200));
+  /* background: color(red h(200)); */
 }
