@@ -40,3 +40,12 @@
   background: color(red hue(200));
   /* background: color(red h(200)); */
 }
+
+.square.is-sat-predefined {
+  background: rgb(191, 64, 64);
+}
+
+.square.is-sat {
+  background: color(red saturation(50%));
+  /* background: color(red s(50%)); */
+}
