@@ -49,3 +49,30 @@
   background: color(red saturation(50%));
   /* background: color(red s(50%)); */
 }
+
+.square.is-light-predefined {
+  background: rgb(77, 0, 0);
+}
+
+.square.is-light {
+  background: color(red lightness(15%));
+  /* background: color(red l(15%)); */
+}
+
+.square.is-white-predefined {
+  background: rgb(255, 128, 128);
+}
+
+.square.is-white {
+  background: color(red whiteness(50%));
+  /* background: color(red w(50%)); */
+}
+
+.square.is-black-predefined {
+  background: rgb(128, 0, 0);
+}
+
+.square.is-black {
+  background: color(red blackness(50%));
+  /* background: color(red b(50%)); */
+}
