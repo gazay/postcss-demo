@@ -21,7 +21,31 @@
 
 .square.is-tint {
   background: color(red tint(50%));
-  /* background: color(red tint(50%)); */
+}
+
+.square.is-shade-predefined {
+  background: rgb(128, 0, 0);
+}
+
+.square.is-shade {
+  background: color(red shade(50%));
+}
+
+.square.is-blend-predefined {
+  background: rgb(128, 64, 0);
+}
+
+.square.is-blend {
+  background: color(red blend(green 50% rgb));
+}
+
+.square.is-contrast-predefined {
+  background: rgb(128, 64, 0);
+}
+
+.square.is-contrast {
+  background: color(red contrast(150%));
+  /* Not working? */
 }
 
 .square.is-hsla-predefined {
