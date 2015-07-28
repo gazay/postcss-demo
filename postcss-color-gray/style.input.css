@@ -1,0 +1,39 @@
+@use postcss-color-gray;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-gray-predefined {
+  background: gray;
+}
+
+.square.is-gray {
+  background: gray;
+}
+
+.square.is-gray-num-predefined {
+  background: gray(128);
+}
+
+.square.is-gray-num {
+  background: gray(128);
+}
+
+.square.is-gray-a-predefined {
+  background: gray(128, 50%);
+}
+
+.square.is-gray-a {
+  background: gray(128, 50%);
+}
+
+.square.is-gray-all-predefined {
+  background: rgb(128, 128, 128);
+}
+
+.square.is-gray-all {
+  background: gray(128, 128, 128);
+}

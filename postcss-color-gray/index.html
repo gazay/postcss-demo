@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Input</th>
+        <th>Plugin function</th>
+        <th>Predefined output</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='gray'>
+        <td>
+          <div class="square"></div>
+        </td>
+        <td>
+          gray
+        </td>
+        <td>
+          <div class="square is-gray-predefined"></div>
+        </td>
+        <td>
+          <div class="square is-gray"></div>
+        </td>
+      </tr>
+      <tr class='gray-num'>
+        <td>
+          <div class="square"></div>
+        </td>
+        <td>
+          gray(128)
+        </td>
+        <td>
+          <div class="square is-gray-num-predefined"></div>
+        </td>
+        <td>
+          <div class="square is-gray-num"></div>
+        </td>
+      </tr>
+      <tr class='gray-a'>
+        <td>
+          <div class="square"></div>
+        </td>
+        <td>
+          gray(128, 50%)
+        </td>
+        <td>
+          <div class="square is-gray-a-predefined"></div>
+        </td>
+        <td>
+          <div class="square is-gray-a"></div>
+        </td>
+      </tr>
+      <tr class='gray-all'>
+        <td>
+          <div class="square"></div>
+        </td>
+        <td>
+          gray(128, 128, 128)
+        </td>
+        <td>
+          <div class="square is-gray-all-predefined"></div>
+        </td>
+        <td>
+          <div class="square is-gray-all"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
