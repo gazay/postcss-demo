@@ -5,6 +5,7 @@
 Right now implemented plugins:
 
 * [postcss-color-function] - by @MoOx
+* [postcss-color-grey] - by @shinnn
 
 ## Idea
 
