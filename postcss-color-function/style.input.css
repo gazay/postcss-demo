@@ -100,3 +100,11 @@
   background: color(red blackness(50%));
   /* background: color(red b(50%)); */
 }
+
+.square.is-combo1-predefined {
+  background: rgba(0, 204, 17, 0.4);
+}
+
+.square.is-combo1 {
+  background: color(hsla(125, 50%, 50%, .4) s(+ 10%) w(- 20%));
+}
