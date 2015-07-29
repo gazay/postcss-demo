@@ -8,7 +8,8 @@
     <table>
       <tr>
         <th>Input</th>
-        <th>Plugin function</th>
+        <th>Input code</th>
+        <th>Output code</th>
         <th>Predefined output</th>
         <th>Postcss output</th>
       </tr>
@@ -17,7 +18,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red alpha(30%))
+          background: color(red alpha(30%));
+        </td>
+        <td>
+          background: rgba(255, 0, 0, 0.3);
         </td>
         <td>
           <div class="square is-alpha-predefined"></div>
@@ -31,7 +35,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red tint(50%))
+          background: color(red tint(50%));
+        </td>
+        <td>
+          background: rgb(255, 128, 128);
         </td>
         <td>
           <div class="square is-tint-predefined"></div>
@@ -45,7 +52,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red shade(50%))
+          background: color(red shade(50%));
+        </td>
+        <td>
+          background: rgb(128, 0, 0);
         </td>
         <td>
           <div class="square is-shade-predefined"></div>
@@ -59,7 +69,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red blend(green 50% rgb))
+          background: color(red blend(green 50% rgb));
+        </td>
+        <td>
+          background: rgb(128, 64, 0);
         </td>
         <td>
           <div class="square is-blend-predefined"></div>
@@ -73,7 +86,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red contrast(50%))
+          background: color(red contrast(50%));
+        </td>
+        <td>
+          background: rgb(128, 64, 0);
         </td>
         <td>
           <div class="square is-contrast-predefined"></div>
@@ -87,7 +103,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(hsla(125, 50%, 50%, .4))
+          background: color(hsla(125, 50%, 50%, .4));
+        </td>
+        <td>
+          background: rgba(64, 191, 74, 0.4);
         </td>
         <td>
           <div class="square is-hsla-predefined"></div>
@@ -101,7 +120,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red hue(200))
+          background: color(red hue(200));
+        </td>
+        <td>
+          background: rgb(0, 170, 255);
         </td>
         <td>
           <div class="square is-hue-predefined"></div>
@@ -115,7 +137,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red saturation(50%))
+          background: color(red saturation(50%));
+        </td>
+        <td>
+          background: rgb(191, 64, 64);
         </td>
         <td>
           <div class="square is-sat-predefined"></div>
@@ -129,7 +154,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red lightness(15%))
+          background: color(red lightness(15%));
+        </td>
+        <td>
+          background: rgb(77, 0, 0);
         </td>
         <td>
           <div class="square is-light-predefined"></div>
@@ -143,7 +171,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red whiteness(50%))
+          background: color(red whiteness(50%));
+        </td>
+        <td>
+          background: rgb(255, 128, 128);
         </td>
         <td>
           <div class="square is-white-predefined"></div>
@@ -157,7 +188,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red blackness(50%))
+          background: color(red blackness(50%));
+        </td>
+        <td>
+          background: rgb(128, 0, 0);
         </td>
         <td>
           <div class="square is-black-predefined"></div>
@@ -171,7 +205,10 @@
           <div class="square"></div>
         </td>
         <td>
-          color(red s(+ 10%) w(- 20%))
+          background: color(red s(+ 10%) w(- 20%));
+        </td>
+        <td>
+          background: rgba(0, 204, 17, 0.4);
         </td>
         <td>
           <div class="square is-combo1-predefined"></div>
