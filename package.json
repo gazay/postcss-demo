@@ -15,7 +15,8 @@
     "gulp-rename": "^1.2.2",
     "postcss-use": "^1.1.0",
     "postcss-color-function": "^1.3.2",
-    "postcss-color-gray": "^2.0.0"
+    "postcss-color-gray": "^2.0.0",
+    "postcss-color-hex-alpha": "^1.1.0"
   },
   "scripts": {
     "test": "gulp"

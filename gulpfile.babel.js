@@ -13,7 +13,7 @@ gulp.task('default', ['lint']);
 gulp.task('build', () => {
   return gulp.src(['**/*.input.css'])
     .pipe(postcss([
-      use({ modules: ['postcss-color-function', 'postcss-color-gray']})
+      use({ modules: ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha']})
     ]))
     .pipe(rename(path => {
       path.basename = path.basename.replace('.input', '');
