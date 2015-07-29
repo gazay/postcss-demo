@@ -8,7 +8,8 @@
     <table>
       <tr>
         <th>Input</th>
-        <th>Plugin function</th>
+        <th>Input code</th>
+        <th>Output code</th>
         <th>Predefined output</th>
         <th>Postcss output</th>
       </tr>
@@ -17,7 +18,10 @@
           <div class="square"></div>
         </td>
         <td>
-          gray
+          background: gray;
+        </td>
+        <td>
+          background: gray;
         </td>
         <td>
           <div class="square is-gray-predefined"></div>
@@ -31,7 +35,10 @@
           <div class="square"></div>
         </td>
         <td>
-          gray(128)
+          background: gray(128);
+        </td>
+        <td>
+          background: rgb(128, 128, 128);
         </td>
         <td>
           <div class="square is-gray-num-predefined"></div>
@@ -45,7 +52,10 @@
           <div class="square"></div>
         </td>
         <td>
-          gray(128, 50%)
+          background: gray(128, 50%);
+        </td>
+        <td>
+          background: rgba(128, 128, 128, 0.5);
         </td>
         <td>
           <div class="square is-gray-a-predefined"></div>
@@ -59,7 +69,10 @@
           <div class="square"></div>
         </td>
         <td>
-          gray(128, 128, 128)
+          background: gray(128, 128, 128);
+        </td>
+        <td>
+          background: rgb(128, 128, 128);
         </td>
         <td>
           <div class="square is-gray-all-predefined"></div>

@@ -15,7 +15,7 @@
 }
 
 .square.is-gray-num-predefined {
-  background: gray(128);
+  background: rgb(128, 128, 128);
 }
 
 .square.is-gray-num {
@@ -23,7 +23,7 @@
 }
 
 .square.is-gray-a-predefined {
-  background: gray(128, 50%);
+  background: rgba(128, 128, 128, 0.5);
 }
 
 .square.is-gray-a {
