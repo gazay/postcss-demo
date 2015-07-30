@@ -4,40 +4,20 @@
   background: red;
 }
 
-.square.is-alpha-predefined {
-  background: rgba(255, 0, 0, 0.3);
-}
-
 .square.is-alpha {
   background: rgba(255, 0, 0, 0.3);
   /* background: color(red a(30%)); */
-}
-
-.square.is-tint-predefined {
-  background: rgb(255, 128, 128);
 }
 
 .square.is-tint {
   background: rgb(255, 128, 128);
 }
 
-.square.is-shade-predefined {
-  background: rgb(128, 0, 0);
-}
-
 .square.is-shade {
   background: rgb(128, 0, 0);
 }
 
-.square.is-blend-predefined {
-  background: rgb(128, 64, 0);
-}
-
 .square.is-blend {
-  background: rgb(128, 64, 0);
-}
-
-.square.is-contrast-predefined {
   background: rgb(128, 64, 0);
 }
 
@@ -46,16 +26,8 @@
   /* Not working? */
 }
 
-.square.is-hsla-predefined {
-  background: rgba(64, 191, 74, 0.4);
-}
-
 .square.is-hsla {
   background: rgba(64, 191, 74, 0.4);
-}
-
-.square.is-hue-predefined {
-  background: rgb(0, 170, 255);
 }
 
 .square.is-hue {
@@ -63,17 +35,9 @@
   /* background: color(red h(200)); */
 }
 
-.square.is-sat-predefined {
-  background: rgb(191, 64, 64);
-}
-
 .square.is-sat {
   background: rgb(191, 64, 64);
   /* background: color(red s(50%)); */
-}
-
-.square.is-light-predefined {
-  background: rgb(77, 0, 0);
 }
 
 .square.is-light {
@@ -81,26 +45,14 @@
   /* background: color(red l(15%)); */
 }
 
-.square.is-white-predefined {
-  background: rgb(255, 128, 128);
-}
-
 .square.is-white {
   background: rgb(255, 128, 128);
   /* background: color(red w(50%)); */
 }
 
-.square.is-black-predefined {
-  background: rgb(128, 0, 0);
-}
-
 .square.is-black {
   background: rgb(128, 0, 0);
   /* background: color(red b(50%)); */
-}
-
-.square.is-combo1-predefined {
-  background: rgba(0, 204, 17, 0.4);
 }
 
 .square.is-combo1 {
