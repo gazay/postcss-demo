@@ -1,0 +1,37 @@
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-gray-predefined {
+  background: gray;
+}
+
+.square.is-gray {
+  background: gray;
+}
+
+.square.is-gray-num-predefined {
+  background: rgb(128, 128, 128);
+}
+
+.square.is-gray-num {
+  background: rgb(128, 128, 128);
+}
+
+.square.is-gray-a-predefined {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+.square.is-gray-a {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+.square.is-gray-all-predefined {
+  background: rgb(128, 128, 128);
+}
+
+.square.is-gray-all {
+  background: rgb(128, 128, 128);
+}
