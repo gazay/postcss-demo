@@ -6,6 +6,18 @@ Right now implemented plugins:
 
 * [postcss-color-function] - by @MoOx
 * [postcss-color-grey] - by @shinnn
+* [postcss-color-hex-alpha] - by @MoOx
+
+## Usage
+
+```bash
+$ git clone https://github.com/gazay/postcss-demo
+$ cd postcss-demo
+$ npm install
+$ node_modules/.bin/gulp build
+
+$ open index.html
+```
 
 ## Idea
 
