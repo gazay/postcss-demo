@@ -4,11 +4,11 @@
 
 Right now implemented plugins:
 
-* [postcss-color-function] - by @MoOx
-* [postcss-color-grey] - by @shinnn
-* [postcss-color-hex-alpha] - by @MoOx
-* [postcss-color-hwb] - by @MoOx
-* [postcss-color-rebeccapurple] - by @MoOx
+* [postcss-color-function](https://github.com/postcss/postcss-color-function) - by [@MoOx](https://github.com/MoOx)
+* [postcss-color-grey](https://github.com/postcss/postcss-color-grey) - by [@shinnn](https://github.com/shinnn)
+* [postcss-color-hex-alpha](https://github.com/postcss/postcss-color-hex-alpha) - by [@MoOx](https://github.com/MoOx)
+* [postcss-color-hwb](https://github.com/postcss/postcss-color-hwb) - by [@MoOx](https://github.com/MoOx)
+* [postcss-color-rebeccapurple](https://github.com/postcss/postcss-color-rebeccapurple) - by [@MoOx](https://github.com/MoOx)
 
 ## Usage
 
