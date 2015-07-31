@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
+  </head>
+  <body>
+    <h1>postcss-color-hwb</h1>
+    <a href="javascript:history.back()">Back</a>
+    <table>
+      <tr>
+        <th>Input code</th>
+        <th>Output code</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='hwb'>
+        <td>
+          background: hwb(90, 0%, 0%, 0.5);
+        </td>
+        <td>
+          background: rgba(128, 255, 0, 0.5);
+        </td>
+        <td>
+          <div class="square is-hwb"></div>
+        </td>
+      </tr>
+      <tr class='hwb-gradient'>
+        <td>
+          background: linear-gradient(hwb(190, 50%, 0%), hwb(190, 50%, 10%, .2));
+        </td>
+        <td>
+          background: linear-gradient(rgb(128, 234, 255), rgba(128, 212, 230, 0.2));
+        </td>
+        <td>
+          <div class="square is-hwb-gradient"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
