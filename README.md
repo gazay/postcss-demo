@@ -7,6 +7,8 @@ Right now implemented plugins:
 * [postcss-color-function] - by @MoOx
 * [postcss-color-grey] - by @shinnn
 * [postcss-color-hex-alpha] - by @MoOx
+* [postcss-color-hwb] - by @MoOx
+* [postcss-color-rebeccapurple] - by @MoOx
 
 ## Usage
 

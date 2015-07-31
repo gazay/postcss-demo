@@ -14,7 +14,7 @@ gulp.task('build', () => {
   return gulp.src(['**/*.input.css'])
     .pipe(postcss([
       use({ modules: ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
-                      'postcss-color-hwb']})
+                      'postcss-color-hwb', 'postcss-color-rebeccapurple']})
     ]))
     .pipe(rename(path => {
       path.basename = path.basename.replace('.input', '');

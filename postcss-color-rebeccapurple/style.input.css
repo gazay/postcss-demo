@@ -1,0 +1,11 @@
+@use postcss-color-rebeccapurple;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-rebeccapurple {
+  background: rebeccapurple;
+}
