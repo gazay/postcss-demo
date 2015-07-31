@@ -1,0 +1,15 @@
+@use postcss-color-hwb;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-hwb {
+  background: hwb(90, 0%, 0%, 0.5);
+}
+
+.square.is-hwb-gradient {
+  background: linear-gradient(hwb(190, 50%, 0%), hwb(190, 50%, 10%, .2));
+}
