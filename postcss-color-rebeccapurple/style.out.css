@@ -1,0 +1,9 @@
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-rebeccapurple {
+  background: rgb(102, 51, 153);
+}
