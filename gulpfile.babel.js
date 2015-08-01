@@ -14,7 +14,8 @@ gulp.task('build', () => {
   return gulp.src(['**/*.input.css'])
     .pipe(postcss([
       use({ modules: ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
-                      'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient']})
+                      'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient',
+                      'postcss-color-rgba-fallback']})
     ]))
     .pipe(rename(path => {
       path.basename = path.basename.replace('.input', '');
@@ -24,7 +25,8 @@ gulp.task('build', () => {
 });
 
 gulp.task('build-separate', ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
-                             'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient'])
+                             'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient',
+                             'postcss-color-rgba-fallback'])
 
 // Build functions for each plugin independently
 
@@ -86,6 +88,16 @@ gulp.task('postcss-conic-gradient', () => {
       path.extname = '.out.css';
     }))
     .pipe(gulp.dest('./postcss-conic-gradient'));
+});
+
+gulp.task('postcss-color-rgba-fallback', () => {
+  return gulp.src('postcss-color-rgba-fallback/style.input.css')
+    .pipe(postcss([ require('postcss-color-rbga-fallback')() ]))
+    .pipe(rename(path => {
+      path.basename = path.basename.replace('.input', '');
+      path.extname = '.out.css';
+    }))
+    .pipe(gulp.dest('./postcss-color-rbga-fallback'));
 });
 
 // Lint
