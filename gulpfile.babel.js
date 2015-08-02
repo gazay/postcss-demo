@@ -15,7 +15,7 @@ gulp.task('build', () => {
     .pipe(postcss([
       use({ modules: ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
                       'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient',
-                      'postcss-color-rgba-fallback']})
+                      'postcss-color-rgba-fallback', 'postcss-color-hcl']})
     ]))
     .pipe(rename(path => {
       path.basename = path.basename.replace('.input', '');
@@ -26,7 +26,7 @@ gulp.task('build', () => {
 
 gulp.task('build-separate', ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
                              'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient',
-                             'postcss-color-rgba-fallback'])
+                             'postcss-color-rgba-fallback', 'postcss-color-hcl'])
 
 // Build functions for each plugin independently
 
@@ -98,6 +98,16 @@ gulp.task('postcss-color-rgba-fallback', () => {
       path.extname = '.out.css';
     }))
     .pipe(gulp.dest('./postcss-color-rbga-fallback'));
+});
+
+gulp.task('postcss-color-hcl', () => {
+  return gulp.src('postcss-color-hcl/style.input.css')
+    .pipe(postcss([ require('postcss-color-hcl')() ]))
+    .pipe(rename(path => {
+      path.basename = path.basename.replace('.input', '');
+      path.extname = '.out.css';
+    }))
+    .pipe(gulp.dest('./postcss-color-hcl'));
 });
 
 // Lint

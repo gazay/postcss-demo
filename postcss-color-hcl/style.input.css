@@ -1,0 +1,11 @@
+@use postcss-color-hcl;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-hcl {
+  background: hcl(90, 0%, 0%, 0.5);
+}
