@@ -11,6 +11,7 @@ Right now implemented plugins:
 * [postcss-color-rebeccapurple](https://github.com/postcss/postcss-color-rebeccapurple) - by [@MoOx](https://github.com/MoOx)
 * [postcss-conic-gradient](https://github.com/jonathantneal/postcss-conic-gradient) - by [@jonathantneal](https://github.com/jonathantneal)
 * [postcss-color-rgba-fallback](https://github.com/postcss/postcss-color-rgba-fallback) - by [@magsout](https://github.com/magsout)
+* [postcss-color-hcl](https://github.com/devgru/postcss-color-hcl) - by [@devgru](https://github.com/devgru)
 
 ## Usage
 
