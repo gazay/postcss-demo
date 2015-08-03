@@ -12,6 +12,7 @@ Right now implemented plugins:
 * [postcss-conic-gradient](https://github.com/jonathantneal/postcss-conic-gradient) - by [@jonathantneal](https://github.com/jonathantneal)
 * [postcss-color-rgba-fallback](https://github.com/postcss/postcss-color-rgba-fallback) - by [@magsout](https://github.com/magsout)
 * [postcss-color-hcl](https://github.com/devgru/postcss-color-hcl) - by [@devgru](https://github.com/devgru)
+* [postcss-color-alpha](https://github.com/avanes/postcss-color-alpha) - by [@avanes](https://github.com/avanes)
 
 ## Usage
 
