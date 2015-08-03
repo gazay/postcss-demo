@@ -18,6 +18,8 @@ Right now implemented plugins:
 
 ## Usage
 
+To build all plugins:
+
 ```bash
 $ git clone https://github.com/gazay/postcss-demo
 $ cd postcss-demo
@@ -27,7 +29,28 @@ $ node_modules/.bin/gulp build
 $ open index.html
 ```
 
+To build specific plugin:
+
+```bash
+$ git clone https://github.com/gazay/postcss-demo
+$ cd postcss-demo
+$ npm install
+$ node_modules/.bin/gulp postcss-color-function
+
+$ open postcss-color-function/index.html
+```
+
 ## Idea
 
 With this application you can see how plugins work and how and for what you can use them.
 Every plugin is in different folder and have it's own gulp task to run.
+
+## Contributors
+
+* @gazay
+
+Special thanks to @ai.
+
+## License
+
+The MIT License
