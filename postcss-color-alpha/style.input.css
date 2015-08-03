@@ -1,0 +1,23 @@
+@use postcss-color-alpha;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-black {
+  background: black(.1);
+}
+
+.square.is-white {
+  background: white(.2);
+}
+
+.square.is-hex {
+  background: #0fc.3;
+}
+
+.square.is-hex2 {
+  background: #00ffcc.3;
+}
