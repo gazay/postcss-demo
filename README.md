@@ -1,6 +1,6 @@
 # PostCSS Demo
 
-> Gulp application for checking all [PostCSS] plugins functionality
+> Gulp application for checking all [PostCSS](https://github.com/postcss/postcss) plugins functionality
 
 Right now implemented plugins:
 
