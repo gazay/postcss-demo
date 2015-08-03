@@ -1,0 +1,13 @@
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-hcl {
+  background: #6c9f32;
+}
+
+.square.is-hcl-a {
+  background: rgba(108, 159, 50, 0.5);
+}

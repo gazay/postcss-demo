@@ -1,0 +1,25 @@
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-black {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.square.is-white {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.square.is-hex {
+  background: rgba(0, 255, 204, 0.3);
+}
+
+.square.is-hex2 {
+  background: rgba(0, 255, 204, 0.3);
+}
+
+.square.is-gradient {
+  background: #000 rgba(0, 0, 0, 0.5) white rgba(255, 255, 255, 0.5);
+}
