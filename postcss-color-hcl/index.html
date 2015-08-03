@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
+  </head>
+  <body>
+    <h1>postcss-color-hcl</h1>
+    <a href="javascript:history.back()">Back</a>
+    <table>
+      <tr>
+        <th>Input code</th>
+        <th>Output code</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='hcl'>
+        <td>
+          background: hcl(125, 60%, 60%);
+        </td>
+        <td>
+          background: #6c9f32;
+        </td>
+        <td>
+          <div class="square is-hcl"></div>
+        </td>
+      </tr>
+      <tr class='hcl-a'>
+        <td>
+          background: hcl(125, 60%, 60%, 0.5);
+        </td>
+        <td>
+          background: rgba(108, 159, 50, 0.5);
+        </td>
+        <td>
+          <div class="square is-hcl-a"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

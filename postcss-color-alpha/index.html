@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
+  </head>
+  <body>
+    <h1>postcss-color-alpha</h1>
+    <a href="javascript:history.back()">Back</a>
+    <table>
+      <tr>
+        <th>Input code</th>
+        <th>Output code</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='black'>
+        <td>
+          background: black(.1);
+        </td>
+        <td>
+          background: rgba(0, 0, 0, 0.1);
+        </td>
+        <td>
+          <div class="square is-black"></div>
+        </td>
+      </tr>
+      <tr class='white'>
+        <td>
+          background: white(.2);
+        </td>
+        <td>
+          background: rgba(255, 255, 255, 0.2);
+        </td>
+        <td>
+          <div class="square is-white"></div>
+        </td>
+      </tr>
+      <tr class='hex'>
+        <td>
+          background: #0fc.3;
+        </td>
+        <td>
+          background: rgba(0, 255, 204, 0.3);
+        </td>
+        <td>
+          <div class="square is-hex"></div>
+        </td>
+      </tr>
+      <tr class='hex2'>
+        <td>
+          background: #00ffcc.45;
+        </td>
+        <td>
+          background: rgba(0, 255, 204, 0.45);
+        </td>
+        <td>
+          <div class="square is-hex2"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
