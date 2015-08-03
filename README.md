@@ -1,4 +1,4 @@
-# Postcss Demo
+# PostCSS Demo
 
 > Gulp application for checking all [PostCSS] plugins functionality
 
