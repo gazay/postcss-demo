@@ -15,6 +15,7 @@ Right now implemented plugins:
 | [postcss-color-rgba-fallback](https://github.com/postcss/postcss-color-rgba-fallback) | [@magsout](https://github.com/magsout) |
 | [postcss-color-hcl](https://github.com/devgru/postcss-color-hcl) | [@devgru](https://github.com/devgru) |
 | [postcss-color-alpha](https://github.com/avanes/postcss-color-alpha) | [@avanes](https://github.com/avanes) |
+| [postcss-color-hexa](https://github.com/nicksheffield/postcss-color-hexa) | [@nicksheffield](https://github.com/nicksheffield) |
 
 ## Usage
 
