@@ -1,0 +1,13 @@
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-hexa {
+  background: rgba(153, 221, 153, 0.8);
+}
+
+.square.is-hexa-6chars {
+  background: rgba(153, 221, 153, 0.8);
+}
