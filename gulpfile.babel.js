@@ -15,7 +15,8 @@ gulp.task('build', () => {
     .pipe(postcss([
       use({ modules: ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
                       'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient',
-                      'postcss-color-rgba-fallback', 'postcss-color-hcl', 'postcss-color-alpha']})
+                      'postcss-color-rgba-fallback', 'postcss-color-hcl', 'postcss-color-alpha',
+                      'postcss-color-hexa']})
     ]))
     .pipe(rename(path => {
       path.basename = path.basename.replace('.input', '');
@@ -26,7 +27,8 @@ gulp.task('build', () => {
 
 gulp.task('build-separate', ['postcss-color-function', 'postcss-color-gray', 'postcss-color-hex-alpha',
                              'postcss-color-hwb', 'postcss-color-rebeccapurple', 'postcss-conic-gradient',
-                             'postcss-color-rgba-fallback', 'postcss-color-hcl', 'postcss-color-alpha'])
+                             'postcss-color-rgba-fallback', 'postcss-color-hcl', 'postcss-color-alpha',
+                             'postcss-color-hexa'])
 
 // Build functions for each plugin independently
 
@@ -111,13 +113,23 @@ gulp.task('postcss-color-hcl', () => {
 });
 
 gulp.task('postcss-color-alpha', () => {
-  return gulp.src('postcss-color-alphs/style.input.css')
-    .pipe(postcss([ require('postcss-color-alphs')() ]))
+  return gulp.src('postcss-color-alpha/style.input.css')
+    .pipe(postcss([ require('postcss-color-alpha')() ]))
     .pipe(rename(path => {
       path.basename = path.basename.replace('.input', '');
       path.extname = '.out.css';
     }))
-    .pipe(gulp.dest('./postcss-color-alphs'));
+    .pipe(gulp.dest('./postcss-color-alpha'));
+});
+
+gulp.task('postcss-color-hexa', () => {
+  return gulp.src('postcss-color-hexa/style.input.css')
+    .pipe(postcss([ require('postcss-color-hexa')() ]))
+    .pipe(rename(path => {
+      path.basename = path.basename.replace('.input', '');
+      path.extname = '.out.css';
+    }))
+    .pipe(gulp.dest('./postcss-color-hexa'));
 });
 
 // Lint

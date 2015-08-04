@@ -1,0 +1,15 @@
+@use postcss-color-hexa;
+
+.square {
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.square.is-hexa {
+  background: hexa(#9d9, 0.8);
+}
+
+.square.is-hexa-6chars {
+  background: hexa(#99dd99, 0.8);
+}

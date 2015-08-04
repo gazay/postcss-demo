@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.out.css">
+    <style>table, tr, th, td { border: 1px solid black; }</style>
+  </head>
+  <body>
+    <h1>postcss-color-hexa</h1>
+    <a href="javascript:history.back()">Back</a>
+    <table>
+      <tr>
+        <th>Input code</th>
+        <th>Output code</th>
+        <th>Postcss output</th>
+      </tr>
+      <tr class='hexa'>
+        <td>
+          background: hexa(#9d9, 0.8);
+        </td>
+        <td>
+          background: rgba(153, 221, 153, 0.8);
+        </td>
+        <td>
+          <div class="square is-hexa"></div>
+        </td>
+      </tr>
+      <tr class='hexa-6chars'>
+        <td>
+          background: hexa(#99dd99, 0.8);
+        </td>
+        <td>
+          background: rgba(153, 221, 153, 0.8);
+        </td>
+        <td>
+          <div class="square is-hexa-6chars"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
